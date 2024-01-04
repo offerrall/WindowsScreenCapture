@@ -1,0 +1,1 @@
+gcc -shared -o WindowsScreenCapture.dll WindowsScreenCapture.c -luser32 -lgdi32
