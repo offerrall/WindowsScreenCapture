@@ -23,6 +23,8 @@ gcc -shared -o WindowsScreenCapture.dll WindowsScreenCapture.c -luser32 -lgdi32
 ## Usage
 The library serves as a foundational tool that can be integrated into various programming environments through its DLL interface.
 
+## Wrappers for other languages
+- Python: [PyWindowsScreenCapture](https://github.com/offerrall/PyWindowsScreenCapture)
 
 ## API Overview
 The library provides a straightforward API:
